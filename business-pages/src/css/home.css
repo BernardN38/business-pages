@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+.form-container {
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* .form-group {
+ 
+} */
+
+.home {
+  height: 100%;
+}
+.left {
+  border-right: 1px solid white;
+  padding: 0, 2rem;
+}
+.right {
+  border-left: 1px solid white;
+  padding-left: 0, 2rem;
+}
+.inner-form {
+  border-radius: 6px;
+  background-color: #14213d;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.inner-form:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 25px #ccc;
+}

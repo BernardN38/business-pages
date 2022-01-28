@@ -1,0 +1,7 @@
+.messages-list {
+  /* margin-right: 10%; */
+}
+
+.messages-item:hover {
+  transform: scale(1.01)
+}

@@ -1,0 +1,25 @@
+.dashboard-container {
+             height: 100%;
+             display: flex;
+             background-size: cover;
+            background-color: #18284d;
+}
+
+
+.dashboard-sidebar {
+    color: white;
+    /* border-right: 2px solid black; */
+    width: 20%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(17, 4, 4, 0.123);
+    backdrop-filter: blur(5px);
+    padding: 8px;
+}
+.dashboard-main {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:2rem;
+}
